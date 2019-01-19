@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container d-flex flex-column col-md-12 justify-content-center align-items-center">
+        <div class="d-flex flex-column col-md-12 justify-content-center align-items-center mt-5 mb-2">
+            <form action="" name="countriesList" id="form">
+                <input type="text" name="country" id="country" placeholder="Np. Poland">
+                <input type="text" name="year" id="year" placeholder="Np. 1988">
+                <input value="Sprawdź" type="button" name="submitValue" id="show">
+            </form>
+    
+        </div>
+        <div id="dane" class="dane d-flex flex-column col-md-12 justify-content-center align-items-center">
+            
+        </div>
+        <div id="countryList" class="d-flex flex-row col-md-12 justify-content-center align-items-center" >
+            <p class="col-md-4 text-center">Lista państw, których święta możesz sprawdzić<br> po prostu wpisz jego nazwę i rok:</p>
+            <ul class="d-flex flex-row align-items-center justify-conten-center flex-wrap col-md-8">
+                <li class="px-3 py-3 text-center">Andorra</li>
+                <li class="px-3 py-3 text-center">Brazil</li>
+                <li class="px-3 py-3 text-center">Canada</li>
+                <li class="px-3 py-3 text-center">Mexico</li>
+                <li class="px-3 py-3 text-center">Poland</li>
+                <li class="px-3 py-3 text-center">Sweden</li>
+                <li class="px-3 py-3 text-center">Vietnam</li>
+                <li class="px-3 py-3 text-center">Zambia</li>
+                <li class="px-3 py-3 text-center">Zimbabwe</li>
+            </ul>
+            
+        </div>
+        <div id="showDataDiv" class="d-flex flex-row col-md-12 justify-content-center align-items-center flex-wrap">
+        </div>
+
+
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script type="text/javascript" src="./script.js"></script>
+</body>
+</html>
